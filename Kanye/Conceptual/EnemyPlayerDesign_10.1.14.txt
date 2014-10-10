@@ -1,0 +1,39 @@
+Ememy Design (October 1st)
+
+Small Generic Melee Unit:
+--Low health
+--Fast on foot
+--When player is hit by SGMU, 10% of player's health is deducted.
+
+Small Generic Range Unit:
+--Low health
+--Fast on foot
+--When player is hit by SGMU range attack, 3.33% of player's health is deducted.
+--Shots are straight
+--Shots are rapid (quick cooldown)
+--Can shoot in 7 directions (north, east, west, NE, NW, SE, SW)
+--Shot direction determined by player's position (?)
+
+Tank:
+--Picks up large pieces of ground and throws them (does not affect actual stage construction.)
+--While picking up ground, is vulnerable on the neck (takes extra damage)
+-- Moves slowly
+--No jump
+--When player is hit by TANK's melee attack (punch) -20% player health
+--When player is hit by TANK's tange (ground-throw) attack, -10% player health
+
+Final Boss ideas:
+--Taylor Swift
+--Gay fish
+--Anti-Kanye (nice person)
+--Generic (UFO, dragon)
+
+Player control:
+--Mouse to aim and left click to shoot
+--One weapon only
+--Arrow keys or WASD to move: W/up-arrow to jump, A/left-arrow for left movement and D/right-arrow for right movement.
+--Unlimited ammo
+--Slow, powerful shot
+
+(Sorry for the late post.)
+IN YEEZUS' NAME AMEN
