@@ -1,0 +1,22 @@
+Code Review 10/22 - 
+
+Level Design
+--------------
+Basic test environment
+
+Assets
+--------------
+Kanye Idle
+Gun sound, hit sound, background music
+
+Character Controller
+--------------
+Jumping box, crouching box - convert to Kanye
+
+AI
+--------------
+Enemy AI done
+
+Interface
+--------------
+Title screen
