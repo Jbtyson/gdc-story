@@ -1,22 +1,28 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-
+Project("{3F8C0316-BB7A-001F-20EF-1F5E50A6BEDF}") = "Kanye", "Assembly-CSharp-vs.csproj", "{A30FF421-0757-57D9-5BB8-82E63F0DB577}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{A30FF421-0757-57D9-5BB8-82E63F0DB577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A30FF421-0757-57D9-5BB8-82E63F0DB577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A30FF421-0757-57D9-5BB8-82E63F0DB577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A30FF421-0757-57D9-5BB8-82E63F0DB577}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-<<<<<<< HEAD
-							GlobalSection(MonoDevelopProperties) = preSolution
+									GlobalSection(MonoDevelopProperties) = preSolution
 =======
-					GlobalSection(MonoDevelopProperties) = preSolution
+				GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> origin/Level-Design-Branch
+=======
+						GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> origin/Level-Design-Branch
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
