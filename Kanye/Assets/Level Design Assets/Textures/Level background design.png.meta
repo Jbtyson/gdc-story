@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 17f1d3c31bd2b784c83fdde0b58f2492
+=======
+guid: 7a2d862993bd2cc4facbb4731c824fb1
+>>>>>>> origin/Level-Design-Branch
 TextureImporter:
   fileIDToRecycleName: {}
   serializedVersion: 2
@@ -25,9 +29,15 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
+<<<<<<< HEAD
     aniso: -1
     mipBias: -1
     wrapMode: -1
+=======
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+>>>>>>> origin/Level-Design-Branch
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
