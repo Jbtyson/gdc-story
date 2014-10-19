@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: ca000e3d3f3ab53498b3f626a4db8ab1
+=======
+guid: 096cb582b9996104abb1f762b43f894b
+>>>>>>> origin/Level-Design-Branch
 TextureImporter:
   fileIDToRecycleName: {}
   serializedVersion: 2
