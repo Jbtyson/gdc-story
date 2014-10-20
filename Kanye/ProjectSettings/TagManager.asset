@@ -12,9 +12,9 @@ TagManager:
   Builtin Layer 5: UI
   Builtin Layer 6: 
   Builtin Layer 7: 
-  User Layer 8: 
-  User Layer 9: 
-  User Layer 10: 
+  User Layer 8: camera
+  User Layer 9: foreground
+  User Layer 10: background
   User Layer 11: 
   User Layer 12: 
   User Layer 13: 
@@ -40,4 +40,16 @@ TagManager:
   - name: Default
     userID: 0
     uniqueID: 0
+    locked: 0
+  - name: Background
+    userID: 2
+    uniqueID: 858696159
+    locked: 0
+  - name: Player
+    userID: 3
+    uniqueID: 1946022937
+    locked: 0
+  - name: Forground
+    userID: 1
+    uniqueID: 2359563309
     locked: 0
