@@ -16,7 +16,7 @@ GameObject:
   - 61: {fileID: 6100000}
   m_Layer: 0
   m_Name: Kanye
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,8 +28,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -3.30839849, y: -4.91304159, z: 1}
+  m_LocalScale: {x: .5, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -98,11 +98,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 10
   jumpForce: 400
-  crouchSpeed: .360000014
+  crouchSpeed: 1
   airControl: 0
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 512
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -121,7 +121,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 2359563309
+  m_SortingLayerID: 1946022937
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 58dc53445b4b0964bb2a0f33c51160d6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
