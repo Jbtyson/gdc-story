@@ -1,0 +1,50 @@
+To update your branch with master:
+- Checkout your branch
+- Merge master into your branch
+- Ex:
+
+	git checkout master
+	git pull origin master 
+		Note that this will pull the latest information for you.
+
+	git checkout <mybranch>
+	git merge master
+	
+Merge conflicts will arise. Merge conflicts are pieces of code that have conflicting information, this may 
+arise if two people have changed the same line of code or two people have adjusted the same piece of code.
+
+When you try to merge, look at the fiels where conflicts have arisen, if you look in the code, it should look 
+
+something like this:
+
+<<<<<<<<<<<<<HEAD
+"CODE section 1"
+=============
+"CODE section 2"
+>>>>>>>>>>>> "Commit comment"
+
+To fix these, you must go through and choose the working piece of code, if I knew that "CODE section 2" was the 
+
+piece of code I wanted, I would delete everything around it but the line I wanted. SO make sure to delete <<<Head 
+
+through to the ===== and then the >>>>>>>>>> at the end.
+
+Do this for all of files that are listed with merge conflicts. Once you have, run the following command.
+	git add .
+	git commit -a -m "Fixed merge conflicts arisen with merging branch" or soemthing along those lines. 
+
+To update your branch with develop:
+- Checkout your branch
+- Merge develop into your branch
+- Ex:
+	git checkout <mybranch>
+	git merge develop
+
+Once you have working code that you would like submitted, go ahead and run the following commands:
+
+	git commit -a -m "Message of what your code does"
+	git push origin <yourbranchname>
+
+Once you have done this, got to github.com and make a pull request to develop. The link below will show you how.
+
+	https://help.github.com/articles/creating-a-pull-request/
