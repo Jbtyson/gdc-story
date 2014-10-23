@@ -16,7 +16,7 @@ TagManager:
   User Layer 9: foreground
   User Layer 10: background
   User Layer 11: 
-  User Layer 12: 
+  User Layer 12: Player
   User Layer 13: 
   User Layer 14: 
   User Layer 15: 
@@ -45,11 +45,11 @@ TagManager:
     userID: 2
     uniqueID: 858696159
     locked: 0
+  - name: Foreground
+    userID: 1
+    uniqueID: 2359563309
+    locked: 0
   - name: Player
     userID: 3
     uniqueID: 1946022937
-    locked: 0
-  - name: Forground
-    userID: 1
-    uniqueID: 2359563309
     locked: 0
